@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(275, 100%, 97%);
+  min-height: 93vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Work Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+.fon1 {
+  z-index: -9;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.fon2 {
+  display: none;
+}
+
+header {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10%;
+}
+
+h1,
+h5 {
+  font-weight: 800;
+}
+
+.contanier {
+  background-color: hsl(0, 100%, 100%);
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 40%;
+  border-radius: 10px;
+}
+
+main {
+  display: grid;
+  gap: 10px;
+}
+
+summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+summary::after {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url("assets/images/icon-plus.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+details[open] summary::after {
+  background-image: url("assets/images/icon-minus.svg");
+}
+
+details[open] > p {
+  margin-top: 5%;
+}
+
+h5 {
+  width: 70%;
+  font-weight: bold;
+  color: hsl(292, 42%, 14%);
+}
+
+h5:hover {
+  color: hsl(293, 100%, 29%);
+}
+
+p {
+  color: hsl(292, 16%, 49%);
+}
+
+.attribution {
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: auto;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  .fon1 {
+    display: none;
+  }
+  .fon2 {
+    display: flex;
+    position: absolute;
+    z-index: -9;
+  }
+
+  .contanier {
+    margin: 0;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+}
