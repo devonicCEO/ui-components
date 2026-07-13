@@ -6,8 +6,8 @@
 	<a href="https://github.com/devonicCEO/ui-components/cards">
 		<img src="assets/btns/CArds.png" width=50%>
 	</a>
----
 	<br>
+---
 
 <!-- <a href="https://github.com/devonicCEO/ui-components">
     	<img src="assets/btns/Cyber-Security.png" width=50% align="top">
