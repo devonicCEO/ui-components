@@ -4,10 +4,9 @@
 
 <div align="start" width=100%>
 	<a href="https://github.com/devonicCEO/ui-components/cards">
-		<img src="assets/btns/" width=50%>
+		<img src="assets/btns/CArds.png" width=50%>
 	</a>
-	<img src="assets/" width=40% align="top">
-	<p>-----------------------------------------------------------------</p>
+---
 	<br>
 
 <!-- <a href="https://github.com/devonicCEO/ui-components">
@@ -29,8 +28,9 @@
 ### Buttons
 
 - [Buttons Repo](https://github.com/devonicCEO/ui-components/cards)
-<!-- - [Repo README](https://github.com/devonicCEO/frontend-projects#readme) -->
-<!-- 
+  <!-- - [Repo README](https://github.com/devonicCEO/frontend-projects#readme) -->
+  <!--
+
 ### Cyber Security Tools Projects
 
 Python ile yazılmış Siber Güvenlik Toolları
