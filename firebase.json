@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "faq-acardion",
+      "public": "cards/faq_accordion/",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    }
+  ]
+}

@@ -6,8 +6,8 @@
 	<a href="https://github.com/devonicCEO/ui-components/cards">
 		<img src="assets/btns/CArds.png" width=50%>
 	</a>
+	<p>-----------------------------------------------------------------</p>
 	<br>
----
 
 <!-- <a href="https://github.com/devonicCEO/ui-components">
     	<img src="assets/btns/Cyber-Security.png" width=50% align="top">
@@ -27,7 +27,7 @@
 
 ### Buttons
 
-- [Buttons Repo](https://github.com/devonicCEO/ui-components/cards)
+- [Buttons Repo](https://github.com/devonicCEO/ui-components/buttons)
   <!-- - [Repo README](https://github.com/devonicCEO/frontend-projects#readme) -->
   <!--
 
@@ -35,10 +35,10 @@
 
 Python ile yazılmış Siber Güvenlik Toolları
 
-- [Cyber Security Tools Projects Repo](https://github.com/devonicCEO/cyber-security-tools)
+- [Cards Repo](https://github.com/devonicCEO/ui-components/cards)
 - [Repo README](https://github.com/devonicCEO/cyber-security-tools#readme)
 
-### Python Projects
+<!-- ### Python Projects
 
 Python ile yazılmış projeleri burada bulabilirsiniz.
 
