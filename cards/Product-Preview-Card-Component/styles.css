@@ -9,14 +9,14 @@
 
 .contanier {
   background-color: hsl(0, 0%, 100%);
-  width: 80%;
+  width: 90%;
 }
 
 .box {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 0 5%;
+  align-items: flex-start;
+  padding: 5% 5%;
 }
 
 body {
@@ -25,7 +25,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .photo {
@@ -33,22 +32,27 @@ body {
   border-top-right-radius: 10px;
   width: 100%;
   height: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 header {
-  font-family: "Fraunces", sans-serif;
-  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
   color: hsl(228, 12%, 48%);
   letter-spacing: 4px;
-  align-self: self-start;
 }
 
 .btn {
   background-color: hsl(158, 36%, 37%);
+  margin-bottom: 5%;
   padding: 5% 0;
   width: 90%;
   border-radius: 10px;
   text-align: center;
+  align-self: center;
 }
 
 a {
@@ -57,12 +61,39 @@ a {
 }
 
 h1 {
-  font-weight: 700;
+  font-weight: bold;
+  font-family: "Fraunces", serif;
+}
+
+.description {
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  font-weight: bold;
+  font-family: "Monserrat", sans-serif;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.price span {
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces", serif;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.price del {
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
 }
 
 @media (max-width: 480px) {
   .photo {
     background-image: url("images/image-product-mobile.jpg");
+    max-height: 80vw;
   }
 
   header {
@@ -70,7 +101,18 @@ h1 {
   }
 
   h1 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+  }
+
+  .main {
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    gap: 20px;
   }
 }
 
