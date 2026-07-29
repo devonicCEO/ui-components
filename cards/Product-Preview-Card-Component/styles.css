@@ -52,6 +52,11 @@ header {
   border-radius: 10px;
   text-align: center;
   align-self: center;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: hsl(158, 42%, 18%);
 }
 
 a {
@@ -124,8 +129,11 @@ h1 {
 @media (min-width: 481px) and (max-width: 1440px) {
   .photo {
     background-image: url("images/image-product-desktop.jpg");
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
     max-height: 30vw;
     max-width: 25vw;
+    flex: 1;
   }
 
   .contanier {
@@ -133,6 +141,28 @@ h1 {
     height: 40%;
     display: flex;
     justify-content: space-evenly;
+  }
+
+  .box {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  header {
+    font-size: 0.6rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+
+  .btn {
+    width: 100%;
   }
 }
 
