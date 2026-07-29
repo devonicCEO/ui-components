@@ -21,10 +21,9 @@
 
 body {
   background-color: hsl(30, 38%, 92%);
-  min-height: 90vh;
+  min-height: 93vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .photo {
@@ -90,6 +89,15 @@ h1 {
   color: hsl(228, 12%, 48%);
 }
 
+.main {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 480px) {
   .photo {
     background-image: url("images/image-product-mobile.jpg");
@@ -106,9 +114,6 @@ h1 {
 
   .main {
     max-width: 480px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 
   .box {
@@ -116,16 +121,24 @@ h1 {
   }
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 481px) and (max-width: 1440px) {
   .photo {
     background-image: url("images/image-product-desktop.jpg");
+    max-height: 30vw;
+    max-width: 25vw;
+  }
+
+  .contanier {
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
   }
 }
 
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
-  justify-self: flex-end;
 }
 
 .attribution a {
